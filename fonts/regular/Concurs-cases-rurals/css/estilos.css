@@ -1,0 +1,453 @@
+/* aplicar a <article> */
+.card {
+    width:350px;
+    height:400px;
+    /* flex y flex colum posicionan la card en su lugar (NO TOCAR) */
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: "libre", Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.card:hover {
+    filter: grayscale(50%);
+}
+ 
+
+h1{ 
+    font-size: 32px;
+    font-weight: 590;
+    width: 553px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    font-family: "libre", Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+span{
+    font-weight: 700;
+    color: #949494;
+    margin-left: 20px;
+    font-family: "libre", Arial, Helvetica, sans-serif;
+    width: 305px;
+    font-size: 32px;
+    margin-left: 1px;
+}
+
+ .top nav {
+  
+    margin-bottom: 18px;
+    margin-right: 80px;
+    align-self: flex-end;
+} 
+.top div {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.burger img {
+    display: none;
+}
+.menu {
+display: flex;
+  justify-content: space-between;
+ width: 372px;
+ height: 22px;
+}
+
+.menu ul {
+    display: flex;
+  justify-content: space-between;
+
+    width: 372px;
+}
+
+.menu li {
+ list-style-type: none;
+ 
+
+}
+ .cabecera {
+    width: max-content;
+
+} 
+
+.foto {
+    font-size: 48px;
+    margin-left: 75px;
+  margin-top: 40px;
+
+}
+
+
+h3 { 
+    margin-left: 78px;
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
+.cards {
+    display: inline-flex;
+     /* flex-direction: row;
+    justify-content:center; */
+    gap: 23px;
+    display: inline-flex;
+    flex-wrap: wrap;
+     width: 100%;
+     margin-left: 80px;
+
+}
+
+/* .cards:hover {
+    filter: grayscale(80%);
+} */
+.iconos {
+     width: 100%;
+   
+    justify-content: flex-end;
+    gap:10px;
+    padding: 10px 10px 0px 0px;
+    z-index: 3;
+    position: relative;
+     
+    display: inline-flex;
+  
+  
+  
+  
+}
+.span:hover img {
+
+    color: red;
+}
+.icon {
+    display: block;
+    display: flex;
+    justify-content: center;   /*centra la <img> en la X*/
+    align-items: center; 
+    /* centra la <img> en la Y */
+    width:60px;
+    height:60px;
+     background-color: #303030;  /* RGB, red 30, Green 30, Blue30 */
+   
+
+    
+}
+.icon:hover {
+   
+    background-color: rgb(255, 25, 243);
+    /* filter: grayscale(80%); */
+    /* filter: grayscale(10%); */
+    
+    
+}
+
+
+.corazon img {
+    width:33px;
+    border: 1px #f558e0;
+    display:block
+
+}
+
+
+.ojo img {
+    
+    width:36px;
+
+}
+
+
+
+
+
+
+div.info {
+    height:400px;
+    
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+ 
+}
+
+
+
+.info {
+    opacity:0;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: opacity;
+    
+}
+.card:hover .info {
+    opacity: 1;
+}
+
+
+footer{
+    width:100%;
+    display: flex;
+    padding: 0px 0px 25px 25px;
+    align-items: center;
+    gap:23px; 
+    z-index: 2;
+    position: relative;
+  
+}
+
+.pradera {
+    width:350px;
+    height:400px;
+    position:absolute;
+    z-index: 1; 
+    
+    }
+
+.patio { 
+    width:350px;
+    height:400px;
+    position:absolute;
+    z-index: 1;
+    }
+.prado {
+    width:350px;
+    height:400px;
+    position:absolute;
+    z-index: 1;
+
+}
+.palmeras {
+    width:350px;
+    height:400px;
+    position:absolute;
+    z-index: 1;
+
+}
+
+.campo {
+    width:350px;
+    height:400px;
+    position:absolute;
+    z-index: 1;
+
+}
+.piscina {
+    width:350px;
+    height:400px;
+    position:absolute;
+    z-index: 1;
+}
+
+.portal {
+    width:350px;
+    height:400px;
+    position:absolute;
+    z-index: 1;
+}
+
+
+
+/* TAMAÑO DE PANTALLA */
+@media screen and (min-width:360px) and (max-width:600px)  {
+
+    body {
+        background: rgb(255, 255, 255);
+        flex-direction: column;
+    } 
+    .cabecera {
+        width:100%;
+    
+    } 
+    .menu {
+        display: none;
+    }
+
+ 
+    .burger  {
+        margin-bottom: 97px;
+        margin-left: 193px;
+        margin-top: -71px;
+      
+    } 
+
+    
+    
+
+  
+    .top div {
+        flex-direction: column;
+    }
+    .top {
+     
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin-left: 2px;
+  
+  }
+
+    
+    h1  {
+        font-weight: 590;
+        width: 237px;
+        margin-left: -42px;
+        margin-top: 20px;
+        font-family: "libre", Arial, Helvetica, sans-serif;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        margin-top: 51px;
+        font-size: 25px;
+      }
+    span {
+        font-weight: 700;
+    color: #949494;
+    margin-left: -2px;
+    font-family: "libre", Arial, Helvetica, sans-serif;
+    width: 191px;
+    font-size: 22px;
+
+    }
+    .foto {
+        font-size: 40px;
+        margin-left: 35px;
+        margin-top: 40px;
+      }
+      h3 {
+        margin-left: 37px;
+        margin-top: 15px;
+        margin-bottom: 60px;
+        font-size: 18px;}
+    .card {
+        width:320px;
+        height:280px;
+        
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        font-family: "libre", Arial, Helvetica, sans-serif;
+        color: white;
+    
+    }
+
+    .cards {
+        gap: 23px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 19px;
+  }
+         
+
+    footer{
+        width:100%;
+        display: flex;
+        padding: 0px 0px 25px 25px;
+        align-items: center;
+        gap:23px; 
+        z-index: 2;
+        position: relative;
+      
+    }
+
+    .pradera {
+        width:320px;
+        height:280px;
+        position:absolute;
+        z-index: 1; 
+        
+        }
+        .icon {
+            display: block;
+            display: flex;
+            justify-content: center;   /*centra la <img> en la X*/
+            align-items: center; 
+            /* centra la <img> en la Y */
+            width:60px;
+            height:60px;
+             background-color: #303030;  /* RGB, red 30, Green 30, Blue30 */
+           margin-left: 10px; }
+    
+    .patio { 
+        width:320px;
+        height:200px;
+        position:absolute;
+        z-index: 1;
+        flex-shrink: 0
+        }
+    .prado {
+         width:320px;
+        height:200px;
+        position:absolute;
+        z-index: 1;
+        flex-shrink: 0
+    
+    }
+    .palmeras {
+        width:320px;
+        height:200px;
+        position:absolute;
+        z-index: 1;
+        flex-shrink: 0
+    
+    }
+    
+    .campo {
+         width:320px;
+        height:200px;
+        position:absolute;
+        z-index: 1;
+        flex-shrink: 0
+    
+    }
+    .piscina {
+         width:320px;
+        height:200px;
+        position:absolute;
+        z-index: 1;
+        flex-shrink: 0
+    }
+    
+    .portal {
+         width:320px;
+        height:200px;
+        position:absolute;
+        z-index: 1;
+        flex-shrink: 0
+    }
+    
+}
+    
+
+
+
+
+    @media screen and (min-width:601px) and (max-width:1380px) {
+
+        body {
+            background: #ffffff;
+           
+    
+        }
+
+        .burger {
+            display: none;
+        }
+        
+    
+        
+    }

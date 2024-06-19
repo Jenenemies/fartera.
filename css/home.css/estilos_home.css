@@ -1,0 +1,218 @@
+body{
+  font-family:"roboto-regular";
+  font-size: 18px;
+}
+.logo{
+    width: 234px;
+    height: 130px; 
+    }
+
+    
+    header{
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+
+    .cabecera {
+        width: 100%;
+    
+    }
+    .naav{
+      list-style: none;
+      display: flex;
+      gap: 63px;
+      justify-content: end;
+      align-items: unset;
+      margin-top: 100px;
+      color: black;
+      font-size: 18px;
+      font-family: "roboto-regular";
+      text-decoration: none;
+      margin-bottom: 35px;
+      padding-right: 25px;
+    }
+    h1{
+      font-family: "roboto-regular";
+      font-size: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    
+    }
+
+
+    h3{
+      font-family:"roboto-light";
+      font-size: 34px;
+      font-style: normal; 
+      line-height:normal;
+    }
+    p{
+      font-family: "roboto-regular";
+      font-size: 18px;
+      width: 435px;
+      line-height: 30px;
+
+    
+    }
+    .promiso{
+      width: 400px;
+     
+      line-height: 30px;
+      
+    }
+
+    .profe{
+      display: flex;
+  flex-direction: row;
+  justify-content: center;
+    }
+
+    .profesional{
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+      width: 500px;
+      justify-content: center;
+      height: 305px;
+      gap: 20px;
+    }
+
+    .subrayado{
+      text-decoration: none;
+      color: black;
+    }   
+    .botoncolor{
+      background-color: #069697;
+      color: white;
+      width: 175px;
+      height: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+   }
+
+
+    .compro{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+
+    }
+
+
+    .compromiso{
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+      width: 500px;
+      justify-content: center;
+      height: 305px;
+      gap: 20px;
+
+    }
+
+    .logopeque{
+      display: none;
+      width: 234px;
+      height: 130px; 
+    }
+
+    .menu{
+      display: none;
+    }
+
+
+    section{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    }
+
+    h2{
+   
+        font-family: "roboto-regular";
+      font-size: 48px;
+      display: flex;
+      justify-content: center;
+      padding-top: 70px;
+      margin-bottom: 25px;
+      gap: 22px;
+    
+    }
+    
+    .radius{
+        border-radius: 50%;
+    }
+    .articles{
+        display: flex;
+        justify-content: center;
+        gap: 180px;
+    }
+    .h3{
+        display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    
+    
+    }
+    .ver{
+      font-family: "roboto-medium";
+      font-size: 14px;
+      color: white;
+      background-color: #069697;
+      width: 80px;
+      height: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 2%;
+    }
+    .icono{
+        width: 45px;
+        height: 45px;
+        filter: invert(100%);
+    }
+    .adres{
+        list-style: none;
+        display: flex;
+        margin-top: 120px;
+        gap: 36px;
+        justify-content:space-evenly;
+        align-items: center;
+        padding-top: 25px;
+      }
+    
+    .legal{
+      list-style: none;
+      display: flex;
+      margin-top: 60px;
+      gap: 35px;
+      justify-content: space-evenly;
+      padding-bottom: 25px;
+      margin-right: 278px;
+      flex-direction: row;
+    }
+   
+    footer{
+      background: black;
+    color: white;
+    font-size: 16px;
+    font-family:"roboto-regular";
+  }
+    
+    .redes{
+      display: flex;
+      list-style: none;
+      gap: 15px;
+    }

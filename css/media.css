@@ -1,0 +1,223 @@
+@media screen and (min-width:320px) and (max-width:720px) {
+
+	.logo{
+		display: none;
+	}
+	
+	.logopeque{
+		display: flex;
+    justify-content: start;
+    width: 55px;
+    height: 62px;
+    position: relative;
+    z-index: 10;
+	}
+
+	
+
+	#nav .naav{
+   
+		display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    width: 100%;
+    padding-left: 25px;
+	   
+	}
+	#nav .naav .subrayado{
+		list-style: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	#nav a {
+		padding: 20px;
+		width: 100%;
+		display: block;
+	
+	}
+
+	.inicon{
+		display: none;
+	}
+
+	.menu{
+		display: block;
+    	width: 40px;
+    	height: 35px;
+
+	}
+
+	.lome{
+		margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 296px;
+    justify-content: space-between;
+    align-items: center;
+	position:relative;
+
+	}
+	#nav{
+		display: none;
+		z-index: 5;
+		position: absolute;
+    background-color: white;
+    top: 0;
+    width: 100%
+	}
+
+
+	#boton{
+		width: 40px;
+		z-index: 15;
+	
+	}
+
+
+
+	.formu{
+		align-self: stretch;
+	}
+
+
+	.profe{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+
+	}
+	.profesional{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 255px;
+    justify-content: center;
+    height: 305px;
+    gap: 18px;
+    font-size: 16px;
+    margin-left: 26px;
+	font-family: "roboto-regular";
+	}
+	h3{
+		font-family:"roboto-light";
+		font-size: 36px;
+	  }
+
+
+
+	  .botoncolor {
+		background-color: #069697;
+    color: white;
+    width: 280px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  
+	  }
+
+	  .compro{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+	  }
+
+	  .compromiso{
+		display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 255px;
+    justify-content: center;
+    height: 305px;
+    gap: 18px;
+    font-size: 16px;
+    margin-left: 26px;
+	font-family: "roboto-regular";
+	}
+	  
+
+	.articles{
+		display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	.adres{
+		display: flex;
+		flex-direction: column;
+
+	}
+	.legal{
+		display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 0px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+	}
+	.celda{
+		width: 280px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+	}
+
+	.mens{
+		width: 280px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+	height: 194px;
+
+	}
+	.for{
+		display: flex;
+	}
+
+	.asistir{
+	text-align: initial;
+  	font-size: 18px;
+ 	width: 280px;
+	display: flex;
+	flex-direction: column;
+	}
+
+	span{
+	font-family:"roboto-light";
+	font-size: 18px;
+	}
+	h1{
+		display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "roboto-regular";
+  font-size: 48px;
+  margin-bottom: 30px;
+	}
+
+	.solicita{
+		display: flex;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    justify-content: center;
+    width: 50px;
+    text-align: center;
+    margin-bottom: 36px;
+  
+	}
+}

@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "libre";
+    src: url(../font/librefranklin.woff2/); 
+    /* para aplicar el tipo de letra hay que poner ../ para que salga de la carpeta y agarre el estilo de la tipogrfia, ya que no es un fichero html */
+}
